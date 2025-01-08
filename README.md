@@ -70,7 +70,7 @@
 
 ## 📜 **开源协议**  
 
-本项目基于 [MIT License](LICENSE) 进行发布，欢迎自由使用和二次开发 🍀。  
+本项目基于 [MIT License]([LICENSE](https://github.com/curtinp118/Loon/blob/main/License)) 进行发布，欢迎自由使用和二次开发 🍀。  
 
 ---
 
