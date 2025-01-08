@@ -30,7 +30,7 @@
 1. **下载配置文件**  
    点击主配置文件右上角的 `Row` 按钮，复制 `Row` 链接，或直接通过 `git clone` 克隆仓库：  
    ```bash
-   git clone https://github.com/你的用户名/loon-config.git
+   git clone https://github.com/curtinp118/Loon.git
    ```
 
 2. **导入到 Loon**  
