@@ -1,0 +1,21 @@
+# Apple Intelligence 规则集
+# 用于 Loon 配置
+
+DOMAIN-KEYWORD,apple-wit
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotos.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,p67-keyvalueservice.icloud.com
+DOMAIN,api.apple-cloudkit.com
+DOMAIN,api.smoot.apple.com
+DOMAIN,binary-blob-repository.apple.com
+DOMAIN,guzzoni.apple.com
+DOMAIN,p106-keyvalueservice.icloud.com

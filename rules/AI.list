@@ -1,0 +1,160 @@
+# ===== AI Rules =====
+# 更新日期：2026/05/28
+# 用于 Loon 配置
+
+# ===== Apple Intelligence =====
+DOMAIN-KEYWORD,apple-wit
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotos.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,p67-keyvalueservice.icloud.com
+DOMAIN,p106-keyvalueservice.icloud.com
+DOMAIN,api.apple-cloudkit.com
+DOMAIN,api.smoot.apple.com
+DOMAIN,binary-blob-repository.apple.com
+DOMAIN,guzzoni.apple.com
+
+# ===== 通用 =====
+DOMAIN,api.statsig.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,wp.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+
+# ===== OpenAI / ChatGPT =====
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,imgix.net
+
+# ===== Anthropic / Claude =====
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# ===== Google AI（Gemini / Bard / NotebookLM）=====
+DOMAIN,ai.google.dev
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,colab.google.com
+DOMAIN-SUFFIX,colab.research.google.com
+DOMAIN-SUFFIX,developerprofiles.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# ===== Microsoft Copilot =====
+DOMAIN,api.msn.com
+DOMAIN,assets.msn.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,r.bing.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+
+# ===== Perplexity =====
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+
+# ===== Poe =====
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,poecdn.net
+
+# ===== xAI / Grok =====
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
+# ===== Midjourney =====
+DOMAIN-SUFFIX,midjourney.com
+
+# ===== GitHub Copilot =====
+DOMAIN-SUFFIX,copilot.githubusercontent.com
+DOMAIN-SUFFIX,github.com
+
+# ===== 代码/开发工具 =====
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,tabnine.com
+
+# ===== 图像/视频生成 =====
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,synthesia.io
+DOMAIN-SUFFIX,heygen.com
+DOMAIN-SUFFIX,d-id.com
+
+# ===== 语音 AI =====
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,murf.ai
+
+# ===== LLM 平台/API =====
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,modal.com
+
+# ===== 内容生成 =====
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,copy.ai
+DOMAIN-SUFFIX,writesonic.com
+
+# ===== 设计工具 AI =====
+DOMAIN-SUFFIX,canva.com
+DOMAIN-SUFFIX,figma.com
+
+# ===== 其他 AI 工具 =====
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
