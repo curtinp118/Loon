@@ -6,13 +6,13 @@
 #!tag=Check-in
 
 [Rewrite]
-^https://glados\.network/console/account$ url script-request-header https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/scripts/glados.js
-^https://railgun\.info/console/account$ url script-request-header https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/scripts/glados.js
-^https://glados\.vip/console/account$ url script-request-header https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/scripts/glados.js
+^https://glados\.network/console/account$ url script-request-header https://raw.githubusercontent.com/curtinp118/Scripthub/refs/heads/main/scripts/glados/glados.js
+^https://railgun\.info/console/account$ url script-request-header https://raw.githubusercontent.com/curtinp118/Scripthub/refs/heads/main/scripts/glados/glados.js
+^https://glados\.vip/console/account$ url script-request-header https://raw.githubusercontent.com/curtinp118/Scripthub/refs/heads/main/scripts/glados/glados.js
 
 [Script]
-http-request ^https://(glados\.network|railgun\.info|glados\.vip)/console/account$ script-path=https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/scripts/glados.js, requires-body=false, timeout=10, tag=GLaDOS抓包, enable=true
-cron "10 7 * * *" script-path=https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/scripts/glados.js, timeout=120, tag=GLaDOS签到, enable=true
+http-request ^https://(glados\.network|railgun\.info|glados\.vip)/console/account$ script-path=https://raw.githubusercontent.com/curtinp118/Scripthub/refs/heads/main/scripts/glados/glados.js, requires-body=false, timeout=10, tag=GLaDOS抓包, enable=true
+cron "10 7 * * *" script-path=https://raw.githubusercontent.com/curtinp118/Scripthub/refs/heads/main/scripts/glados/glados.js, timeout=120, tag=GLaDOS签到, enable=true
 
 [MITM]
 hostname = glados.network, railgun.info, glados.vip
