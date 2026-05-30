@@ -1,16 +1,17 @@
-#!name=V2EX 每日签到
-#!desc=V2EX 每日签到领取铜币
-#!author=Curtinp118
-#!homepage=https://github.com/curtinp118/Loon
-#!icon=https://raw.githubusercontent.com/v2ex/v2ex/master/favicon.ico
-#!tag=Check-in
-
-[Rewrite]
-^https://www\.v2ex\.com/(mission|member).* url script-request-header https://raw.githubusercontent.com/curtinp118/Scripthub/refs/heads/main/scripts/v2ex/v2ex.js
-
-[Script]
-http-request ^https://www\.v2ex\.com/(mission|member).*$ script-path=https://raw.githubusercontent.com/curtinp118/Scripthub/refs/heads/main/scripts/v2ex/v2ex.js, requires-body=false, timeout=10, tag=V2EX抓包, enable=true
-cron "10 9 * * *" script-path=https://raw.githubusercontent.com/curtinp118/Scripthub/refs/heads/main/scripts/v2ex/v2ex.js, timeout=60, tag=V2EX签到, enable=true
-
-[MITM]
-hostname = www.v2ex.com
+     1|#!name=V2EX 每日签到
+     2|#!desc=V2EX 每日签到领取铜币
+     3|#!author=Curtinp118
+     4|#!homepage=https://github.com/curtinp118/Loon
+     5|#!icon=https://raw.githubusercontent.com/v2ex/v2ex/master/favicon.ico
+     6|#!tag=Check-in
+     7|
+     8|[Rewrite]
+     9|^https://www\.v2ex\.com/(mission|member).* url script-request-header https://raw.githubusercontent.com/curtinp118/Scripthub/main/scripts/v2ex/v2ex.js
+    10|
+    11|[Script]
+    12|http-request ^https://www\.v2ex\.com/(mission|member).*$ script-path=https://raw.githubusercontent.com/curtinp118/Scripthub/main/scripts/v2ex/v2ex.js, requires-body=false, timeout=10, tag=V2EX抓包, enable=true
+    13|cron "10 9 * * *" script-path=https://raw.githubusercontent.com/curtinp118/Scripthub/main/scripts/v2ex/v2ex.js, timeout=60, tag=V2EX签到, enable=true
+    14|
+    15|[MITM]
+    16|hostname = www.v2ex.com
+    17|
