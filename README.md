@@ -19,7 +19,7 @@ Loon/
 Loon → 配置 → 所有配置文件 → 点击右上角 `+` → 从链接导入：
 
 ```
-https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/profile/Loon.conf
+https://raw.githubusercontent.com/curtinp118/Loon/main/profile/Loon.conf
 ```
 
 ### 2. 添加插件
@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/profile/Loon.c
 Loon → 配置 → 所有配置文件 → 点击右上角 `+` → 从链接导入：
 
 ```
-https://raw.githubusercontent.com/curtinp118/Loon/refs/heads/main/plugins/glados.plugin
+https://raw.githubusercontent.com/curtinp118/Loon/main/plugins/glados.plugin
 ```
 
 ### 3. 配置节点
