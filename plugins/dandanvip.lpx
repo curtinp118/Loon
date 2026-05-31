@@ -1,0 +1,13 @@
+#!name=蛋蛋不语VIP解锁
+#!desc=解锁蛋蛋不语VIP会员功能
+#!author=Curtinp118
+#!homepage=https://github.com/curtinp118/Loon
+
+[Rewrite]
+^http:\/\/38\.76\.202\.248:8000\/.*profiles.* url script-response-body https://raw.githubusercontent.com/curtinp118/Scripthub/main/scripts/dandanvip/dandanvip_unlock.js
+
+[Script]
+http-response ^http:\/\/38\.76\.202\.248:8000\/.*profiles.* script-path=https://raw.githubusercontent.com/curtinp118/Scripthub/main/scripts/dandanvip/dandanvip_unlock.js, requires-body=true, timeout=10, tag=蛋蛋不语VIP解锁, enable=true
+
+[MITM]
+hostname = 38.76.202.248
